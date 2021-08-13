@@ -22,7 +22,7 @@ module.exports = {
       '@babel/plugin-transform-runtime',
       {
         // corejs2 会转译 Object.entries 等静态方法，需要装 @babel/runtime-corejs2
-        // corejs3 会转译 [].include 等原型方法，需要装 @babel/runtime-corej3
+        // corejs3 会转译 [].include 等原型方法，需要装 @babel/runtime-corejs3
         corejs: 2,
         useESModules: true,
         helpers: true,
